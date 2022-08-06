@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    """Главная."""
+    """Главная. """
     return HttpResponse('У меня получилось!')
 
 
